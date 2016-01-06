@@ -1,6 +1,6 @@
 package info.androidhive.androidanimations;
 
-import android.app.Activity;
+import android.app.Activity; 
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class BlinkActivity extends Activity implements AnimationListener {
 
 	TextView txtMessage;
+	TextView txtMessage1;
 	Button btnStart;
 
 	// Animation
